@@ -172,6 +172,19 @@ h1{
     }
 
 }
+@media only screen and (max-width:300px){
+    .buttons{
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+    .card{
+             margin-left:14px; 
+             height: 500px;
+             width: 350px; 
+    }
+
+}
 @media only screen and (min-width:300px)and (max-width:500px)  {
     .buttons{
         margin-left: 20px;
@@ -179,8 +192,31 @@ h1{
         margin-right: 30px;
     }
     .card{
-        margin-left:14px; 
-        
-}
+             margin-left:27px; 
+    
+    }
    
+}
+@media only screen and (min-width:500px)and (max-width:800px)  {
+    .buttons{
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+    .card{
+             margin-left:27px; 
+             
+    }
+}
+@media only screen and (min-width:800px)and (max-width:10000px)  {
+   
+    .buttons{
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+    .card{
+             margin-left:27px; 
+            
+}
 }
